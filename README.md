@@ -32,11 +32,11 @@ This project is about creating a clone of Instagram.
 
 # Instagram Photos
 
-<img text-align="center" alt="image" src="./photos/Home.png">
-<img text-align="center" alt="image" src="./photos/Profile.png">
-<img text-align="center" alt="image" src="./photos/Post.png">
-<img text-align="center" alt="image" src="./photos/Login.png">
-<img text-align="center" alt="image" src="./photos/Sign_in.png">
+<img text-align="center" alt="image" src="./Photos/Home.jpg">
+<img text-align="center" alt="image" src="./Photos/Profile.jpg">
+<img text-align="center" alt="image" src="./Photos/Post.jpg">
+<img text-align="center" alt="image" src="./Photos/Login.jpg">
+<img text-align="center" alt="image" src="./Photos/Sign_in.jpg">
 
 ### The Core Team
 O'rmonova Diyora urmonova_d
