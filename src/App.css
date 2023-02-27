@@ -1,0 +1,188 @@
+@import url(//db.onlinewebfonts.com/c/0376a58122a881d16a294512d3c947b1?family=ProximaNova-Regular);
+
+* {
+  font-family: ProximaNova-Regular;
+
+}
+
+.App {
+	background: linear-gradient(-45deg, #ef643a, #eb64e2, #23a6d5, #23d570);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.text5{
+  display: block;
+  text-align: center;
+  font-size: 3em;
+}
+.text2{
+  /* align-items: center;
+  text-align: center;
+  display: grid; */
+  height: 30px;
+  width: 60px;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+}
+.text3{
+  padding: 30px; 
+}
+.text4{
+  padding: 30px; 
+}
+.search{
+  margin: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 15%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #FAFAFA !important;
+  text-align: center;
+}
+
+
+.app__header {
+  /* object-fit: contain; */
+  background-color: pink;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 0 20px;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: center;
+
+}
+
+.app__headername{
+  display: flex;
+}
+
+.app__headerImage{
+  padding: 12px 0;
+  align-content: center;
+  max-width: 100%;
+  object-fit: contain;
+  align-items: center;
+}
+
+.btns{
+  color: blue;
+  margin: 10px;
+}
+
+.app__user{
+  /* padding: 15px 10px; */
+  font-weight: 700;
+  font-size: 14px;
+  color: rgb(41, 41, 41);
+  padding: 30px 15px;
+  padding-bottom: 2px;
+}
+
+.app__username{
+  font-weight: 500;
+  color: #808080;
+  /* border: 2px solid red; */
+  margin-left: 14px;
+  font-size: 15px;
+  /* margin-bottom: 10px; */
+}
+
+.app__logout{
+  margin-top: 38px;
+  padding-left: 40px ;
+  font-size: 13px;
+  border: none;
+  background-color: transparent;
+  color: #00a2ff;
+  font-weight: 600;
+}
+
+.App {
+  background-color: #fafafa;
+}
+
+.app__signup{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.app__posts{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.app__userInfo{
+  display:flex;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 250px;
+  position: sticky;
+  right: 0;
+}
+
+.app__footer{
+  margin-left: 30px;
+  font-size: 12px;
+  color: #7e7e7e80;
+}
+
+.app__posts-right{
+  margin-left: 20px;
+}
+
+/* .app__uploadbtn{
+  transition: 3s !important;
+  background-image: none;
+}
+
+.app__uploadbtn:hover{
+  background-image: linear-gradient(to right, #F58529, #FEDA77, #DD2A7B, #8134AF,#515BD4) !important;
+} */
+
+.app__avatar{
+  height: 65px !important;
+  width: 65px !important;
+}
+
+.app__avatarOut{
+  padding: 9px 0;
+}
+
+@media only screen and (max-width: 750px) {
+  .app__headersearch{
+    visibility: hidden;
+  }
+  .app__userInfo{
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  .app__posts{
+    justify-content: center;
+  }
+
+  .app__footer{
+    visibility: hidden;
+    /* justify-content: start; */
+  }
+}
